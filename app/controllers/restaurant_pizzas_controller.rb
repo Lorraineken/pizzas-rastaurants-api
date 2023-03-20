@@ -15,7 +15,7 @@ end
  end
 
  def create_error_message 
-    render json: { errors: "validation errors"}, status: :unprocessable_entity
+    render json: { errors: ["validation errors"]}, status: :unprocessable_entity
  end
 
 end
