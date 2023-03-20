@@ -11,6 +11,12 @@ rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
     render json: restaurant, serializer: RestaurantShowSerializer
   end
 
+  def destroy 
+    restaurant = Restaurant.find(params[:id])
+    restaurant.destroy
+    render json:{}, status: :no_content
+  end
+
   private
 
   def render_not_found_response
