@@ -5,7 +5,7 @@ This project is based on an API for tracking pizzas restaurants.
 The relationship of the models is shown on the ERD model below 
 
 
-   ![ERD DIAGRAM](./restaurant_pizzas_ERD.png?raw=true "ERD DIAGRAM")
+   ![ERD DIAGRAM](./restaurant_pizza.png?raw=true "ERD DIAGRAM")
 
 
 ## Tools Used
