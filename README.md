@@ -1,6 +1,8 @@
 # PIZZAS-RESTAURANT-API
 
-This project is based on an API for tracking pizzas restaurants.
+This project is based on an API for tracking pizzas restaurants built with ruby on rails.
+
+It's is a server side application which contains restaurants details, pizza details and a join table for the restaurants and pizzas known as restaurant_pizzas.
 
 The relationship of the models is shown on the ERD model below 
 
@@ -44,13 +46,19 @@ To use this repo on your machine requires some simple steps
 
 
 
-# Running the application
+## Running the application
 
  You can use the following steps to run the app.
 
 - Install required dependencies using bundle
 
       bundle install
+
+- Run the application 
+
+       rails s 
+
+- Use any API platform such as postman to interact with the APIs.
 
 
 # Authors
